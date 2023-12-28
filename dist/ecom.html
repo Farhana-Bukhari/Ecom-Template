@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans ">
+    <!-- ------------------------------------------navbar-------------------------- -->
+    <div class="hidden  h-[70px] px-[4rem]  lg:flex items-center ">
+        <div class="logo h-[4.375rem] w-[10rem] mr-[1rem] py-[5px] flex items-center justify-center">
+            <img class="" src="../assets/ecom-logo-rgb-latest.png" alt="">
+        </div>
+        <div class="nav w-full">
+            <ul class="flex justify-end items-center">
+                <li class=" px-1 relative"><a
+                        class="about p-2 text-[0.9rem] text-[#535353] hover:text-[#004B3A] hover:font-bold hover:cursor-pointer hover:underline"
+                        href="">About
+                        us</a>
+                    <div class="aboutModalWindow w-[250px] absolute bg-[#ddf1e8] p-8 hidden">
+                        <h2 class="font-bold mb-4">About
+                            us</h2>
+                        <p class="mb-3">Careers</p>
+                        <p class="mb-3">Ethics and compliance</p>
+                    </div>
+                </li>
+
+                <li class="px-1 relative"><a
+                        class="sustainability p-2 text-[0.9rem] text-[#535353] hover:text-[#004B3A] hover:font-bold hover:cursor-pointer hover:underline"
+                        href="">Sustainability</a>
+                    <div class="SustainabilityModalWindow w-[250px] absolute bg-[#ddf1e8] p-8 hidden">
+                        <h2 class="font-bold mb-4">Sustainability</h2>
+                        <p class="mb-3">Sustainable approach</p>
+                        <p class="mb-3">sustainable Management Services</p>
+                        <p class="mb-3">Carbon Management Services</p>
+                    </div>
+                </li>
+
+                <li class="px-1 relative"><a
+                        class="product p-2 text-[0.9rem] text-[#535353] hover:text-[#004B3A] hover:font-bold hover:cursor-pointer hover:underline"
+                        href="">Product & Services</a>
+                    <div class="productModalWindow w-[250px] absolute bg-[#ddf1e8] p-8 hidden">
+                        <h2 class="font-bold mb-4">Product & Services</h2>
+                        <p class="mb-3">Cocoa</p>
+                        <p class="mb-3">Coffee</p>
+                        <p class="mb-3">Cotton</p>
+                        <p class="mb-3">Nuts & Ingredients</p>
+                        <p class="mb-3">ECOM Risk Management</p>
+                    </div>
+                </li>
+
+                <li class="px-1"><a
+                        class="p-2 text-[0.9rem] text-[#535353] hover:text-[#004B3A] hover:font-bold hover:cursor-pointer hover:underline"
+                        href="">News & Insights</a></li>
+                <li class="px-1"><a
+                        class="p-2 text-[0.9rem] text-[#535353] hover:text-[#004B3A] hover:font-bold hover:cursor-pointer hover:underline"
+                        href="">Contact</a></li>
+                <li class="px-1"><i class="text-[#004b3a] p-2 hover:cursor-pointer fa-solid fa-magnifying-glass"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- --------------------------navbar small screen-------------------------- -->
+    <div class="h-[3.8rem] flex items-center justify-between lg:hidden relatives">
+        <div class="logo h-[3.8rem] w-[8.4rem] mr-[1rem] py-[5px] flex items-center justify-center">
+            <img class=" h-[2.8rem] w-[7.4rem]" src="../assets/ecom-logo-rgb-latest.png" alt="">
+        </div>
+        <div class="flex items-center justify-between">
+            <div class="p-2">
+                <i class="text-[#004b3a] p-2 fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class=" menuBarBtn p-2 relative hover:cursor-pointer">
+                <button class="menuBarBtn absolute top-0 left-0"> <i class="text-xl fa-solid fa-bars"></i></button>
+                <button class="closeBtn absolute top-0 left-0 hidden"><i class="text-xl fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div
+                class="menuModalWindow h-[752px] w-[352px] bg-[#ddf1e8] text-[#343434] font-normal absolute top-[3.7rem] right-0 z-40 pl-8 pt-8 hidden">
+                <ul>
+                    <li class="flex justify-between items-center  p-4">About us <span><img
+                                src="../assets/chevron-down.png" alt=""></span></li>
+                    <li class="flex justify-between items-center p-4">Sustainability <span><img
+                                src="../assets/chevron-down.png" alt=""></span></li>
+                    <li class="flex justify-between items-center p-4">Products & services <span><img
+                                src="../assets/chevron-down.png" alt=""></span></li>
+                    <li class="flex justify-between items-center p-4">News & insights <span><img
+                                src="../assets/chevron-down.png" alt=""></span></li>
+                    <li class="flex justify-between items-center p-4">Contact <span><img
+                                src="../assets/chevron-down.png" alt=""></span></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- ---------------------------section 1---------------------------------- -->
+    <div class="mb-[2rem]">
+        <div class=" w-full lg:flex">
+            <div class="w-[100%] lg:w-[50%]">
+                <img class="w-[100%]" src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/womenSection1.webp"
+                    alt="">
+            </div>
+
+            <div class=" w-[100%] lg:w-[50%] flex justify-start items-center pl-16 pt-[4rem]">
+                <div class="lg:h-[60%] w-[80%] lg:w-[80%] flex flex-col justify-start flex-shrink ">
+                    <h4 class="text-[#004B3A] font-bold text-[0.9rem] text-left mb-2">Who we are</h4>
+                    <h2 class="font-bold text-[1.875rem] lg:text-[3vw] text-[#2b2b2b] text-left leading-none  mb-4">
+                        Leaders in soft
+                        commodity
+                        services</h2>
+                    <p class="font-medium text-[#2b2b2b] text-left text-[0.625rem] text-base">ECOM operates in more
+                        than
+                        35 major
+                        producing
+                        countries, working with thousands of farmers and local
+                        businesses. We employ more than a thousand agronomists and field staff worldwide, running
+                        innovative on-the-ground operations and sustainability programmes to help our customers and
+                        farming
+                        communities worldwide. Our global presence, unparalleled experience and strong, trusted
+                        relationships allow us to create a valuable and profitable environment for our suppliers,
+                        customers,
+                        shareholders and employees.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------section 2---------------------------------- -->
+    <div class="my-24">
+        <div class=" w-full lg:flex">
+            <div class="w-[100%] lg:w-[50%] relative">
+                <img class="w-[100%]" src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/leafPhone.webp"
+                    alt="">
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                <div class=" w-[50%] absolute top-[40%] left-[10%] translate-[-40%,-10%] z-10">
+                    <h1 class="font-bold text-[#ffffff] text-6xl mb-4">Growing innovators</h1>
+                    <span class=""><img class="h-[50px] w-[50px] " src="../assets/Play Button.png" alt=""></span>
+                </div>
+            </div>
+
+
+            <div class="w-[100%] lg:w-[50%] flex justify-start items-start pl-16 pt-[4rem]">
+                <div class="h-[60%] w-[80%] lg:w-[60%] ">
+
+                    <h2 class="font-bold text-[1.875rem]  lg:text-[3vw] text-[#2b2b2b] text-left leading-none  mb-4">
+                        We’re here to create
+                        sustainable futures</h2>
+
+                    <p class="font-medium text-[#2b2b2b] text-left text-[0.625rem] text-base mb-4">For more than 170
+                        years,
+                        ECOM has
+                        been
+                        helping secure the long-term future of coffee, cocoa and cotton. With our pioneering, creative
+                        spirit and unique on-the-ground resources, we help farmers around the world adopt climate-smart
+                        growing methods that improve their livelihoods and protect and regenerate nature. Through our
+                        transparent, responsible supply chains, we deliver the products and solutions our customers
+                        need.</p>
+                    <h5 class="flex items-center text-[1rem] font-bold text-[#004b3a]"><span
+                            class="h-6 w-6 mr-2 flex justify-center items-center"><img src="../assets/Icon Arrow.png"
+                                alt=""></span>More about us</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------section 3---------------------------------- -->
+    <div class=" mt-24">
+        <div class=" w-full flex flex-col-reverse lg:flex lg:flex-row">
+
+            <div class=" w-[100%] lg:w-[50%] flex justify-start items-start pl-16 pt-20">
+                <div class="h-[60%]  w-[80%] lg:w-[80%] ">
+                    <h4 class="text-[#004B3A] font-bold text-[0.9rem] text-left mb-2">Our impact</h4>
+                    <h2 class="font-bold text-[1.875rem] text-[#2b2b2b] text-left leading-none  mb-4">How does climate
+                        change affect a soft commodity business like ours?</h2>
+
+                    <p class="font-medium text-[#2b2b2b] text-left  text-[0.625rem] text-base mb-4">Donec volutpat id
+                        turpis et
+                        maximus. Nam
+                        gravida suscipit tristique. Duis eu elit fermentum ipsum imperdiet ornare lacinia sit amet arcu.
+                        Aenean sem risus, vulputate non lorem vitae, ultrices hendrerit nulla. Duis vel magna sodales,
+                        pellentesque sapien quis, tincidunt metus. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Vivamus pharetra velit augue, sed pharetra leo ullamcorper vel. Proin volutpat
+                        venenatis nulla, at egestas erat sodales non. Cras nisl lorem, vestibulum sed sem nec,
+                        consectetur iaculis turpis.</p>
+                    <h5 class="flex items-center text-[1rem] font-bold text-[#004b3a] mb-20"><span
+                            class="h-6 w-6 mr-2 flex justify-center items-center"><img class=" "
+                                src="../assets/Icon Arrow.png" alt=""></span>Read the full
+                        article
+                    </h5>
+                    <div class="flex">
+                        <span class="mr-1"><img src="../assets/one.svg" alt=""></span>
+                        <span class="mr-1"><img src="../assets/two.svg" alt=""></span>
+                        <span class="mr-1"><img src="../assets/three.svg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class=" w-[100%] lg:w-[50%]">
+                <div class=" auto max-w-[100%]">
+                    <img class="w-[100%]"
+                        src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/flowerSection3.webp" alt="">
+                </div>
+                <div class=""><img src="../assets/Solid.svg" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------section 4---------------------------------- -->
+    <div class="lg:h-auto w-full mb-8  md:my-14">
+        <h5 class="flex items-center text-[1rem] font-bold text-[#004b3a] mb-1 ml-16">Who we are
+        </h5>
+        <h2 class=" text-[#2b2b2b] font-bold text-[2rem] ml-16 my-2">Our world -what’s happening</h2>
+        <div class="mb-0 lg:flex lg:h-[37rem] h-full">
+
+            <div class="h-[420px] w-[100%] lg:w-[49%] md:h-full lg:mr-4 relative mb-8 lg:mb-0">
+                <img class="h-full w-full object-cover  object-right"
+                    src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/sandinhands.webp" alt="">
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                <div class="w-[80%] md:w-[70%] absolute bottom-[10%] left-[10%] translate-[-10%,-10%] z-10">
+                    <h1 class="font-bold text-[#ffffff] text-xl md:text-2xl lg:text-3xl mb-4">What’s happening below
+                        ground level is getting
+                        exciting</h1>
+                    <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-8 ">We need to regenerate to protect
+                        our food systems.</p>
+
+                    <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                            class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                src="../assets/Icon Arrow-1.svg" alt=""></span>Read our latest
+                        report here</h5>
+
+                </div>
+            </div>
+
+            <div class="h-full  w-[100%] lg:w-[49%] lg:ml-4">
+                <div class=" h-[230px] lg:h-[47.5%] w-full mb-8 relative">
+                    <img class='h-full w-full object-cover'
+                        src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/machine.webp" alt="">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                    <div class="w-[70%] md:w-[50%] absolute bottom-[5%] left-[10%] translate-[-5%,-10%] z-10">
+                        <h1 class="font-bold text-[#ffffff]  text-xl md:text-2xl lg:text-3xl mb-8">Unlocking the power
+                            of
+                            digital agriculture in
+                            Ghana and Côte d’Ivoire</h1>
+                        <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                                class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                    src="../assets/Icon Arrow-1.svg" alt=""></span>More about us</h5>
+                    </div>
+                </div>
+
+                <div class="h-[230px] lg:h-[47%] w-full mt-8 relative">
+                    <img class='h-full w-full object-cover object-center'
+                        src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/tree.webp" alt="">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                    <div class="w-[70%] md:w-[50%] absolute bottom-[5%] left-[10%] translate-[-5%,-10%] z-10">
+                        <h1 class="font-bold text-[#ffffff]  text-2xl md:text-3xl lg:text-4xl mb-8">Why 400k+ cocoa
+                            smallholder farmers are driving
+                            change</h1>
+                        <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                                class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                    src="../assets/Icon Arrow-1.svg" alt=""></span>More about us</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------section 4 part2---------------------------------- -->
+    <!-- <div class="h-full lg:h-[580px] w-full">
+        <div class="h-full flex flex-col-reverse lg:flex lg:flex-row">
+            <div class="h-full lg:h-full w-[100%] lg:w-[49%] lg:mr-4">
+
+                <div class=" h-[230px] lg:h-[47%] w-full mb-8 mt-8 lg:mt-8 relative">
+                    <img class="h-full w-full object-cover"
+                        src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/jeans.webp" alt=""
+                        class="h-full w-full object-cover object-center">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                    <div class="w-[60%] md:w-[60%] absolute  bottom-[5%] left-[10%] translate-[-5%,-10%] z-10">
+                        <h1 class="font-bold text-[#ffffff] text-xl md:text-2xl lg:text-3xl mb-4">Improve Cotton,
+                            improve
+                            lives</h1>
+                        <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-8">Why we’re teaming up with the
+                            Cotton Council and Sustainable Apparel
+                            Coalition</p>
+                        <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                                class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                    src="../assets/Icon Arrow-1.svg" alt=""></span>More about us</h5>
+                    </div>
+                </div>
+
+
+                <div class=" h-full lg:h-[47%] w-full  mt-8 relative mb-8 lg:mb-0">
+                    <img class="h-[230px] lg:h-full w-full object-cover"
+                        src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/checkingleaf.webp" alt="">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                    <div class="w-[60%] md:w-[60%]  absolute bottom-[5%] left-[10%] translate-[-5%,-10%] z-10">
+                        <h1 class="font-bold text-[#ffffff] text-xl md:text-2xl lg:text-3xl mb-4">SMS lorem ipsum
+                            dolor </h1>
+                        <p class=" text-[#ffffff]  text-lg md:text-xl lg:text-2xl mb-8">Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed
+                            diam
+                            nonumy</p>
+                        <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                                class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                    src="../assets/Icon Arrow-1.svg" alt=""></span>More about us</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="h-[420px] lg:h-full lg:ml-4  w-[100%] lg:w-[49%] relative">
+                <img class='h-full w-full  mb-8 lg:mb-0 object-cover'
+                    src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/whiteshirt.webp" alt="">
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                <div class="w-[80%] md:w-[70%] absolute bottom-[10%] left-[10%] translate-[-10%,-10%] z-10">
+                    <h1 class="font-bold text-[#ffffff] text-2xl md:text-3xl lg:text-4xl mb-4">New team running ENS
+                    </h1>
+                    <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-18">Edible Nuts and Spices is the latest
+                        business to join our group.</p>
+                    <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                            class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                src="../assets/Icon Arrow-1.svg" alt=""></span>More about us</h5>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div> -->
+
+
+    <div class="h-[580px] flex flex-col-reverse lg:flex lg:flex-row">
+        <div class="h-2/3 lg:h-full w-full lg:w-1/2"></div>
+        <div class="h-1/3 lg:h-full"></div>
+    </div>
+    <!-- ---------------------------section 5---------------------------------- -->
+    <!-- main div -->
+    <div class=" h-[270vh] md:h-[180vh] md:px-28 my-8  md:py-16">
+
+        <!-- part 1 -->
+        <div class=" h-1/3 md:h-1/2 mb-8 relative">
+            <img class='h-full w-full object-cover'
+                src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/clickingflowers.webp" alt="">
+            <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-40"></div>
+            <div class="w-[80%] md::w-[60%] lg:w-[55%] absolute bottom-[6%] left-[5%] translate-[-10%,-5%] z-10">
+                <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-4">News & insights</p>
+                <h1 class="font-bold text-[#ffffff] text-2xl md:text-3xl lg:text-4xl mb-8">Our world-class research
+                    provides proactive solutions,
+                    tailored for our customers</h1>
+                <h5 class="flex  items-center   text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]">
+                    <span class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                            src="../assets/Icon Arrow-1.svg" alt=""></span>Discover how
+                </h5>
+            </div>
+        </div>
+
+        <!-- part 2 -->
+        <div class="h-2/3 md:h-1/2 md:flex mt-8">
+            <!-- part 2a -->
+            <div class="h-1/2 md:h-full w-full md:w-1/2 md:mr-4 mb-8 md:mb-0 relative">
+                <img class="h-full w-full object-cover"
+                    src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/sowingseeds.webp" alt="">
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-40"></div>
+                <div class="w-[80%] lg:w-[55%] absolute bottom-[10%] left-[10%] translate-[-10%,-10%] z-10">
+                    <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-3">Sustainability</p>
+                    <h1 class="font-bold text-[#ffffff] text-xl md:text-2xl lg:text-3xl mb-9">Our innovative
+                        approach has set the pace for the
+                        industry</h1>
+                    <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                            class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                src="../assets/Icon Arrow-1.svg" alt=""></span>See it in action</h5>
+                </div>
+            </div>
+            <!-- part 2b -->
+            <div class="h-1/2 md:h-full w-full md:w-1/2 md:ml-4 mt-8 md:mt-0  relative">
+                <img class="h-full w-full object-cover"
+                    src="../assets/ECOMNEW_15_Dev_Final (1)/ECOMNEW_15_Dev_Final/blackclothes.webp" alt="">
+                <div class="absolute inset-0 bg-gradient-to-t from-black to-black opacity-20"></div>
+
+                <div class="w-[80%] lg:w-[45%] absolute bottom-[10%] left-[10%] translate-[-10%,-10%] z-10">
+                    <p class=" text-[#ffffff] text-lg md:text-xl lg:text-2xl mb-3">Careers</p>
+                    <h1 class="font-bold text-[#ffffff] text-xl md:text-2xl lg:text-3xl mb-9">Help to create
+                        a smarter future with us</h1>
+                    <h5 class="flex  items-center text-lg md:text-xl lg:text-2xl font-semibold text-[#ffffff]"><span
+                            class="h-[50px] w-[50px] flex justify-center items-center mr-2"><img
+                                src="../assets/Icon Arrow-1.svg" alt=""></span>Grow with us</h5>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- -------------------------------footer-------------------------------------- -->
+    <div
+        class="footer  bg-[#004b3a] text-[#ffffff]  py-16 flex flex-col justify-center items-start md:items-center mt-8">
+
+        <div class="footer1 h-[30%] w-[40%]  md:w-full md:grid  md:grid-cols-3"></div>
+        <div class="footer2 w-full lg:w-[15rem] flex flex-col items-center justify-center"></div>
+    </div>
+
+    <div class="sticky bottom-[1rem] right-10  ">
+        <div class="backtoTop  mb-10 mr-12 flex justify-end absolute right-[10px] bottom-0">
+            <button
+                class="h-[50px] w-[50px] text-3xl border-2 border-[#dedada]  rounded-full text-[#004b3a] font-bold  hover:cursor-pointer bg-white flex justify-center items-center s"><span><i
+                        class="mr-3 ml-2 fa-solid fa-arrow-up"></i></span></button>
+        </div>
+    </div>
+
+
+    <script src="ecom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="Icon_Arrow" data-name="Icon Arrow" transform="translate(-1047 -9971)">
+    <circle id="Ellipse_2288" data-name="Ellipse 2288" cx="21" cy="21" r="21" transform="translate(1047 9971)" fill="#fff"/>
+    <g id="Arrow_Icon" data-name="Arrow Icon" transform="translate(1075 9981.999) rotate(90)">
+      <path id="Path_7356" data-name="Path 7356" d="M0,0,7,6.579,14,0" transform="translate(17.001 3.968) rotate(-180)" fill="none" stroke="#004b3a" stroke-width="4"/>
+      <path id="Path_8729" data-name="Path 8729" d="M0,0H20" transform="translate(10.033 17.001) rotate(-90)" fill="none" stroke="#004b3a" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
